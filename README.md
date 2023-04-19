@@ -1,1 +1,2 @@
 # Cisco-Packet-Tracer
+This Reposititory holds a list of Cisco Packet Tracer (.pkt) files. The goal of these files is to be inter-connected. While each file can be opened and modifyed alone, each one should also be readily-usable to drop into Master.pkt which will simulate an ISP. As more scenarios are added, each will be inter-routable to every other scenario, eventually simulating a localized ISP service.
