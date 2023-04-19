@@ -1,0 +1,39 @@
+longshoreSwitches.local
+PineapplesAreTasty
+
+10.56.224.0
+255.255.240.0
+
+Network 1 - 10.56.224.0/29
+	10.56.224.1 - LAG1 Str
+	10.56.224.2 - LAG2 Cross
+	10.56.224.3 - LAS1, Vlan ??
+	10.56.224.4-6 - Unassigned
+
+Network 2 - 10.56.224.8/29
+	10.56.224.9 - LAG2 Str
+	10.56.224.10 - LAG1 Cross
+	10.56.224.11 - LAS2, Vlan ??
+	10.56.224.12-14 - Unassigned
+
+Network 3 - 10.56.224.16/29
+	10.56.224.17 - LAS3, Vlan 12
+	10.56.224.18 - DHCP Server
+	10.56.244.19-22 - Unassigned
+
+Network 4 - 10.56.224.24/29
+	10.56.224.25 LAS3, Vlan 20
+	10.56.224.26 Lobby Printer
+	10.56.224.27-30 DHCP
+
+Network 5 - 10.56.224.32/29
+	10.56.224.33 - LAS3, Vlan 16
+	10.56.224.34-38 - DHCP
+
+Network 6 - 10.56.224.40/29
+	10.56.224.41-47 - Unassigned
+
+Network 9999 - 10.56.255.0/24
+	10.56.255.1 - LAS3, Vlan 18
+	10.56.255.2-20 - Unassigned
+	10.56.255.21 - DHCP
